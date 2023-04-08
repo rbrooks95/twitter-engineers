@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "twitter-scrape"
+version = "0.1.0"
+description = ""
+authors = ["Roshawn Brooks <69084474+rbrooks95@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "twitter_scrape"}]
+
+[tool.poetry.dependencies]
+python = "^3.10.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
